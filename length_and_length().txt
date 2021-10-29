@@ -1,0 +1,8 @@
+length:- length is a final instance variable
+*An array is a obj that holds the fixed value .It returns the length/size of the array.So we can use it with reference only and 
+it is applicable for int,double,String of array.
+
+length():-It is a static method which is applicable for String objects only.
+*it returns the number of char present in the string.It is applicable for string,stringbuilder.
+*A string class internally uses a char[]array that it does not expose to the outside world.
+
