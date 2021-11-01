@@ -1,0 +1,18 @@
+package org.testyantra.inheritance;
+
+public class ForexCard extends Card{
+    void loadMoney() {
+    	System.out.println("load money");
+    }
+    void convertCurrency() {
+    	System.out.println("convert currency from root to target");
+    }
+	public static void main(String[] args) {
+		ForexCard forexCard=new ForexCard();
+		forexCard.loadMoney();
+		forexCard.convertCurrency();
+		forexCard.withdraw();
+
+	}
+
+}

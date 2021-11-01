@@ -1,0 +1,15 @@
+package org.testyantra.inheritance;
+
+public class CreditCard extends Card{
+	int creditlimit=5000000;
+	public static void main(String[] args) {
+		CreditCard creditCard=new CreditCard();
+		creditCard.cardno=765757645674l;
+		creditCard.cvv=454;
+		creditCard.expDate="54/98";
+		System.out.println("bank name is"+ creditCard.Banknm);
+		creditCard.withdraw();
+		
+		}
+
+}

@@ -1,0 +1,13 @@
+package array;
+
+import java.util.Arrays;
+
+public class Sorted {
+
+	public static void main(String[] args) {
+		String []arr= {"java","python","php","c#","c programming","c++"};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+	}
+
+}

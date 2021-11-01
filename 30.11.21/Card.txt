@@ -1,0 +1,19 @@
+package org.testyantra.inheritance;
+
+import java.util.Scanner;
+
+public class Card {
+	long cardno;
+	int cvv;
+	String expDate;
+	final String Banknm="sbi";
+	void withdraw() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter withdraw amount");
+		int x=sc.nextInt();
+		System.out.println("withdraw succesfully");
+	}
+
+	
+
+}

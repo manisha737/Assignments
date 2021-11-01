@@ -1,0 +1,7 @@
+package org.testyantra.inheritance;
+
+public interface Interface1 {
+	int fmoney=777666;
+	void care();
+
+}

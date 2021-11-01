@@ -1,0 +1,6 @@
+package org.testyantra.inheritance;
+
+public interface Interface2 {
+  int mmoney=87655;
+  void care();
+}

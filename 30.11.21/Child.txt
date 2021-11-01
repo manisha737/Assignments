@@ -1,0 +1,19 @@
+package org.testyantra.inheritance;
+
+public class Child implements Interface1,Interface2{
+
+	public static void main(String[] args) {
+		Child child=new Child();
+		child.care();
+		System.out.println(child.fmoney);
+		System.out.println(child.mmoney);
+
+	}
+
+	@Override
+	public void care() {
+		System.out.println("father mother cares");
+		
+	}
+
+}

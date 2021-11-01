@@ -1,0 +1,26 @@
+package array;
+
+import java.util.Scanner;
+
+public class NumberInWord {
+	public static void printNumberInWord(int num) {
+			if(num>=0 && num<=9) {
+				System.out.println("zero,"+"one,"+"two,"+"three,"+"four,"+"five,"+"six,"+"seven,"+"eight,"+"nine");
+			}
+			else {
+				System.out.println("others");
+			}
+		
+	}
+
+	public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number");
+        int x=sc.nextInt();
+        printNumberInWord(x);
+         
+    }
+
+
+}
